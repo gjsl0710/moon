@@ -152,9 +152,9 @@ client.on('message', (message) => {
         x.user.send(embed)
       });
   
-      return message.reply('공지를 전송했습니다.');
+      return message.reply('에엑따 공지를 전송해따!!');
     } else {
-      return message.reply('채널에서 실행해주세요.');
+      return message.reply('채널에서 실행하자잉');
     }
   } else if(message.content.startsWith('!전체공지')) {
     if(checkPermission(message)) return

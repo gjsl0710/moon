@@ -152,7 +152,7 @@ client.on('message', (message) => {
         x.user.send(embed)
       });
   
-      return message.reply('에엑따 공지를 전송해따!!');
+      return message.reply('에엑따 공지를 전송해따');
     } else {
       return message.reply('채널에서 실행하자잉');
     }
@@ -165,7 +165,7 @@ client.on('message', (message) => {
         x.user.send(`<@${message.author.id}> ${contents}`);
       });
   
-      return message.reply('에엑따 공지를 전송해따!');
+      return message.reply('에엑따 공지를 전송해따');
     } else {
       return message.reply('채널에서 실행하자잉');
     }

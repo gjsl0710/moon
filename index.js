@@ -38,13 +38,6 @@ client.on('message', (message) => {
     return message.reply('ㅖ? 저요?');
   }
 
-  client.on('message', (message) => {
-    if(message.author.bot) return;
-  
-    if(message.content == '옵치충') {
-      return message.reply('아.그.분.알.지.매.우.대.다.나.신.분');
-    }
-
   if(message.content == '!서버') {
     let embed = new Discord.RichEmbed()
     let img = 'https://cdn.discordapp.com/avatars/743290440761081916/c806b06b9ff0b50be8b708cfeed0d2c7.webp?size=128';

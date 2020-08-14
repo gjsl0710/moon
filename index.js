@@ -91,7 +91,7 @@ client.on('message', (message) => {
     let helpImg = 'https://images-ext-1.discordapp.net/external/RyofVqSAVAi0H9-1yK6M8NGy2grU5TWZkLadG-rwqk0/https/i.imgur.com/EZRAPxR.png';
     let commandList = [
       {name: '!도움', desc: '도움말 표시다잉'},
-      {name: '!전체공지', desc: '텍스트형식임 사진 첨부 가능'},
+      {name: '!전체공지', desc: '텍스트형식임 사진 첨부'},
       {name: '!공지', desc: '공지기능임 ㅇㅇ'},
       {name: '!청소', desc: '모르면 피융신 ㅋㅋ'},
       {name: '!초대코드', desc: '해당 채널의 초대 코드 표기'},

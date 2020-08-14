@@ -88,7 +88,7 @@ client.on('message', (message) => {
 
     message.channel.send(embed)
   } else if(message.content == '!도움') {
-    let helpImg = 'https://images-ext-1.discordapp.net/external/RyofVqSAVAi0H9-1yK6M8NGy2grU5TWZkLadG-rwqk0/https/i.imgur.com/EZRAPxR.png';
+    let helpImg = 'https://cdn.discordapp.com/attachments/720519106171764797/743648792292884490/b09a405d9a1c3b9d0c29ed5167af68174W9t7.gif';
     let commandList = [
       {name: '!도움', desc: '도움말 표시다잉'},
       {name: '!전체공지', desc: '텍스트형식임 사진 첨부'},
